@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YKs7xoho0tYzwfwnsn9oaX9Mtd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager">
+    <configuration name="GmallUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.gmalluser.GmallUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="" />
+      <created>1582702456131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582702456131</updated>
+      <workItem from="1582702457726" duration="676000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="127" key="NewModule_or_Project.wizard" timestamp="1582702686795">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="370" y="127" key="NewModule_or_Project.wizard/0.23.1440.806@0.23.1440.806" timestamp="1582702686795" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1582703141715">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1582703141715" />
+    <state x="400" y="181" width="639" height="486" key="find.popup" timestamp="1582703157466">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="400" y="181" width="639" height="486" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1582703157466" />
+  </component>
+</project>
