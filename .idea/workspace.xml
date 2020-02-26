@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="" />
+    <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,12 +20,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1YKs7xoho0tYzwfwnsn9oaX9Mtd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -62,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582702456131</updated>
-      <workItem from="1582702457726" duration="676000" />
+      <workItem from="1582702457726" duration="1738000" />
     </task>
     <servers />
   </component>
@@ -70,6 +77,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1582703276206">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1582703276206" />
+    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1582703276205">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1582703276205" />
+    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1582703276203">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1582703276203" />
+    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1582703276205">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1582703276205" />
+    <state width="1398" height="206" key="GridCell.Tab.1.bottom" timestamp="1582703276208">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1582703276208" />
+    <state width="1398" height="206" key="GridCell.Tab.1.center" timestamp="1582703276207">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1582703276207" />
+    <state width="1398" height="206" key="GridCell.Tab.1.left" timestamp="1582703276206">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1582703276206" />
+    <state width="1398" height="206" key="GridCell.Tab.1.right" timestamp="1582703276207">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="206" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1582703276207" />
     <state x="370" y="127" key="NewModule_or_Project.wizard" timestamp="1582702686795">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
