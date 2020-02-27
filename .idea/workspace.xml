@@ -2,13 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/UmsMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/UmsMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/UmsMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/bean/UmsMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-service-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/atguigu/gmall/gmalluser/GmallUserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/atguigu/gmall/gmalluser/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/atguigu/gmall/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/atguigu/gmall/gmalluser/mapper/UmsMemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/atguigu/gmall/user/mapper/UmsMemberMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/java/com/atguigu/gmall/gmalluser/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/atguigu/gmall/user/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user/src/main/resources/mapper/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/resources/mapper/UmsMemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,6 +57,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -31,6 +72,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -39,23 +90,38 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gmall-user-service/src/main/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="GmallUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="gmall-user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.gmalluser.GmallUserApplication" />
+  <component name="RunManager" selected="Spring Boot.GmallUserWebApplication">
+    <configuration name="GmallUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.GmallUserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GmallUserWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.GmallUserWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GmallUserServiceApplication" />
+      <item itemvalue="Spring Boot.GmallUserWebApplication" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -79,7 +145,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582702456131</updated>
-      <workItem from="1582702457726" duration="1876000" />
+      <workItem from="1582702457726" duration="4357000" />
+      <workItem from="1582707487048" duration="3015000" />
+      <workItem from="1582767262504" duration="6716000" />
     </task>
     <servers />
   </component>
@@ -87,49 +155,86 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1582703276206">
+    <state x="320" y="90" key="#Project_Structure" timestamp="1582707145959">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1582703276206" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1582703276205">
+    <state x="320" y="90" key="#Project_Structure/0.23.1440.806@0.23.1440.806" timestamp="1582707145959" />
+    <state x="184" y="86" width="1132" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582774534311">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1582703276205" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1582703276203">
+    <state x="184" y="86" width="1132" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1582774534311" />
+    <state x="509" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582706329191">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1582703276203" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1582703276205">
+    <state x="509" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.806@0.23.1440.806" timestamp="1582706329191" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1582776196894">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1582703276205" />
-    <state width="1398" height="206" key="GridCell.Tab.1.bottom" timestamp="1582703276208">
+    <state width="699" height="325" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1582766843169" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1582776196894" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1582776196893">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1582703276208" />
-    <state width="1398" height="206" key="GridCell.Tab.1.center" timestamp="1582703276207">
+    <state width="699" height="325" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1582766843168" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1582776196893" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1582776196892">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1582703276207" />
-    <state width="1398" height="206" key="GridCell.Tab.1.left" timestamp="1582703276206">
+    <state width="699" height="325" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1582766843168" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1582776196892" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1582776196893">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1582703276206" />
-    <state width="1398" height="206" key="GridCell.Tab.1.right" timestamp="1582703276207">
+    <state width="699" height="325" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1582766843169" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1582776196893" />
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1582776196897">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1582703276207" />
+    <state width="699" height="325" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1582766843173" />
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1582776196897" />
+    <state width="1398" height="244" key="GridCell.Tab.1.center" timestamp="1582776196895">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="699" height="325" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1582766843170" />
+    <state width="1398" height="244" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1582776196895" />
+    <state width="1398" height="244" key="GridCell.Tab.1.left" timestamp="1582776196895">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="699" height="325" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1582766843170" />
+    <state width="1398" height="244" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1582776196895" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right" timestamp="1582776196896">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="699" height="325" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1582766843171" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1582776196896" />
+    <state x="258" y="86" key="Maven.ArtifactSearchDialog" timestamp="1582775020260">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="258" y="86" key="Maven.ArtifactSearchDialog/0.23.1440.806@0.23.1440.806" timestamp="1582775020260" />
     <state x="370" y="127" key="NewModule_or_Project.wizard" timestamp="1582702686795">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="370" y="127" key="NewModule_or_Project.wizard/0.23.1440.806@0.23.1440.806" timestamp="1582702686795" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1582703141715">
+    <state x="208" y="23" key="SettingsEditor" timestamp="1582707623590">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1582707623590" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1582707112116" />
+    <state x="446" y="325" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582706516218">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1582703141715" />
+    <state x="446" y="325" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.806@0.23.1440.806" timestamp="1582706516218" />
     <state x="400" y="181" width="639" height="486" key="find.popup" timestamp="1582703157466">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="400" y="181" width="639" height="486" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1582703157466" />
+    <state x="149" y="122" key="new project wizard" timestamp="1582705381240">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="149" y="122" key="new project wizard/0.23.1440.806@0.23.1440.806" timestamp="1582705381240" />
+    <state x="385" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1582776275481">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="385" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1582776275481" />
   </component>
 </project>

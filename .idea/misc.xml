@@ -10,7 +10,6 @@
         <option value="$PROJECT_DIR$/gmall-interface/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-service-util/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-user/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-web-util/pom.xml" />
       </list>
     </option>
