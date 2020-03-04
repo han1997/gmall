@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.atguigu.gmall.bean.PmsProductImage;
 import com.atguigu.gmall.bean.PmsProductInfo;
 import com.atguigu.gmall.bean.PmsProductSaleAttr;
+import com.atguigu.gmall.bean.PmsSkuInfo;
 import com.atguigu.gmall.service.SkuService;
 import com.atguigu.gmall.service.SpuService;
 import org.springframework.stereotype.Controller;
@@ -25,9 +26,9 @@ public class SkuController {
 
     @RequestMapping("saveSkuInfo")
     @ResponseBody
-    public String saveSkuInfo(@RequestBody PmsProductInfo pmsProductInfo){
-
-        return null;
+    public String saveSkuInfo(@RequestBody PmsSkuInfo pmsSkuInfo){
+        String message = skuService.saveSkuInfo(pmsSkuInfo);
+        return message;
     }
 
 

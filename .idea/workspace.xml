@@ -2,62 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseAttrInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseAttrValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseCatalog1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseCatalog2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseCatalog3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsBaseSaleAttr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductSaleAttr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsProductSaleAttrValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuAttrValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/PmsSkuSaleAttrValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/UmsMemberReceiveAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/AttrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/CatalogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common-util/src/main/java/util/PmsUploadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseAttrInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog3Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseSaleAttrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductImageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuAttrValueMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/CatalogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/AttrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/CatalogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/tracker.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-api/target/classes/com/atguigu/gmall/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/atguigu/gmall/user/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/java/com/atguigu/gmall/user/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/atguigu/gmall/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/atguigu/gmall/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-user-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SkuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +208,7 @@
       <workItem from="1582767262504" duration="44675000" />
       <workItem from="1583055266443" duration="1839000" />
       <workItem from="1583104266875" duration="4241000" />
-      <workItem from="1583223798523" duration="6665000" />
+      <workItem from="1583223798523" duration="8544000" />
     </task>
     <servers />
   </component>
@@ -278,10 +226,10 @@
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.803@0.23.1440.803" timestamp="1583199570983" />
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.804@0.23.1440.804" timestamp="1582947651028" />
     <state x="184" y="86" width="1132" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1583055744763" />
-    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1583293643652">
+    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1583294611964">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1583293643652" />
+    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1583294611964" />
     <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.804@0.23.1440.804" timestamp="1582953181865" />
     <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.806@0.23.1440.806" timestamp="1583054186073" />
     <state x="509" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582706329191">
@@ -296,52 +244,52 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="475" height="464" key="DebuggerActiveHint/0.23.1440.804@0.23.1440.804" timestamp="1582943609078" />
-    <state width="1398" height="130" key="GridCell.Tab.0.bottom" timestamp="1583293988737">
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom" timestamp="1583294494911">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583293988737" />
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583294494911" />
     <state width="1398" height="281" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583057039506" />
     <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786967" />
-    <state width="1398" height="130" key="GridCell.Tab.0.center" timestamp="1583293988736">
+    <state width="1398" height="130" key="GridCell.Tab.0.center" timestamp="1583294494910">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1583293988736" />
+    <state width="1398" height="130" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1583294494910" />
     <state width="1398" height="281" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1583057039502" />
     <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786965" />
-    <state width="1398" height="130" key="GridCell.Tab.0.left" timestamp="1583293988736">
+    <state width="1398" height="130" key="GridCell.Tab.0.left" timestamp="1583294494909">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1583293988736" />
+    <state width="1398" height="130" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1583294494909" />
     <state width="1398" height="281" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1583057039500" />
     <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786963" />
-    <state width="1398" height="130" key="GridCell.Tab.0.right" timestamp="1583293988737">
+    <state width="1398" height="130" key="GridCell.Tab.0.right" timestamp="1583294494910">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1583293988737" />
+    <state width="1398" height="130" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1583294494910" />
     <state width="1398" height="281" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1583057039505" />
     <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786966" />
-    <state width="1398" height="130" key="GridCell.Tab.1.bottom" timestamp="1583293988739">
+    <state width="1398" height="130" key="GridCell.Tab.1.bottom" timestamp="1583294494912">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583293988739" />
+    <state width="1398" height="130" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583294494912" />
     <state width="1398" height="281" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583056907714" />
     <state width="1398" height="172" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786972" />
-    <state width="1398" height="130" key="GridCell.Tab.1.center" timestamp="1583293988738">
+    <state width="1398" height="130" key="GridCell.Tab.1.center" timestamp="1583294494911">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1583293988738" />
+    <state width="1398" height="130" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1583294494911" />
     <state width="1398" height="281" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1583056907713" />
     <state width="1398" height="172" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786970" />
-    <state width="1398" height="130" key="GridCell.Tab.1.left" timestamp="1583293988738">
+    <state width="1398" height="130" key="GridCell.Tab.1.left" timestamp="1583294494911">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1583293988738" />
+    <state width="1398" height="130" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1583294494911" />
     <state width="1398" height="281" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1583056907712" />
     <state width="1398" height="172" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786969" />
-    <state width="1398" height="130" key="GridCell.Tab.1.right" timestamp="1583293988739">
+    <state width="1398" height="130" key="GridCell.Tab.1.right" timestamp="1583294494912">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1583293988739" />
+    <state width="1398" height="130" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1583294494912" />
     <state width="1398" height="281" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1583056907714" />
     <state width="1398" height="172" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786971" />
     <state width="1398" height="281" key="GridCell.Tab.2.bottom" timestamp="1583054989907">
@@ -389,10 +337,10 @@
     </state>
     <state x="450" y="163" width="540" height="524" key="StructurePopup/0.23.1440.803@0.23.1440.803" timestamp="1583045806097" />
     <state x="450" y="164" width="540" height="526" key="StructurePopup/0.23.1440.806@0.23.1440.806" timestamp="1583053301208" />
-    <state width="500" height="496" key="SwitcherDM" timestamp="1583294188138">
+    <state width="500" height="496" key="SwitcherDM" timestamp="1583320179907">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="500" height="496" key="SwitcherDM/0.23.1440.803@0.23.1440.803" timestamp="1583294188138" />
+    <state width="500" height="496" key="SwitcherDM/0.23.1440.803@0.23.1440.803" timestamp="1583320179907" />
     <state width="500" height="516" key="SwitcherDM/0.23.1440.804@0.23.1440.804" timestamp="1582954045966" />
     <state width="500" height="498" key="SwitcherDM/0.23.1440.806@0.23.1440.806" timestamp="1583051429110" />
     <state x="521" y="209" key="chooseDestDirectoryDialog" timestamp="1582944299026">
