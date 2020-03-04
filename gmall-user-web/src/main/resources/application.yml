@@ -14,7 +14,7 @@ spring:
 #      zookeeper设置
     registry:
 #      zookeeper地址
-      address: 10.211.55.6:2181
+      address: 192.168.123.27:2181
 #      zookeeper协议名称
       protocol: zookeeper
     consumer:

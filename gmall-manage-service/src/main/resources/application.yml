@@ -1,0 +1,23 @@
+
+server:
+  port: 8071
+
+# mysql
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gmall_study
+    username: root
+    password: 970821
+# dubbo
+  dubbo:
+    application: manage-service
+    base-package: com.atguigu.gmall
+    protocol:
+      name: dubbo
+    registry:
+      address: 192.168.123.27:2181
+      protocol: zookeeper
+logging:
+  level:
+    root: info

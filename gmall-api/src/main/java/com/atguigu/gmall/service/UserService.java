@@ -8,6 +8,6 @@ import java.util.List;
  * @author hhy1997
  * 2020/2/22
  */
-public interface IUserService {
+public interface UserService {
     List<UmsMember> list();
 }

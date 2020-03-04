@@ -3,4 +3,6 @@
 # 模块端口：
 
 - user-web：8080
-- user-service：8081
+- user-service：8070
+- manage-web: 8081
+- manage-service: 8071

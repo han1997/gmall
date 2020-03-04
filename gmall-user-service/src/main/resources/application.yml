@@ -1,6 +1,6 @@
 
 server:
-  port: 8081
+  port: 8070
 
 # mysql
 spring:
@@ -16,7 +16,7 @@ spring:
     protocol:
       name: dubbo
     registry:
-      address: 10.211.55.6:2181
+      address: 192.168.123.27:2181
       protocol: zookeeper
 logging:
   level:

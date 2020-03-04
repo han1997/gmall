@@ -16,7 +16,7 @@
         <module>gmall-web-util</module>
         <module>gmall-user-service</module>
         <module>gmall-user-web</module>
+        <module>gmall-manage-service</module>
+        <module>gmall-manage-web</module>
     </modules>
-
-
 </project>
