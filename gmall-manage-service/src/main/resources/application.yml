@@ -21,3 +21,8 @@ spring:
 logging:
   level:
     root: info
+  #mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true

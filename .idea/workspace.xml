@@ -2,10 +2,337 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/bootstrap/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/image/eee_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/1466134037230.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/1f80c3d6fabfd3418e54b005312c00b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2017-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/2e19336b961586468ef36dc9f7199d4f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/3130323235303039372d313439343631373831333737363031343436353833_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/31333238343438363638385f7031343139383436323836343333_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/31353536363035383838375f7031343639393139313530303839_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/31353630323636363637315f7031343635383936363632333730_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/36313339393636322d33383232363231353037303333373238343937_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/36860afb69afa241beeb33ae86678093.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/4a79b87a68623d4e8a73aff3e25fa99b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/54b8871eNa9a7067e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/54b8872dNe37a9860.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/54b8875fNad1e0c4c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5698dc03N23f2e3b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5698dc16Nb2ab99df.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/56a0a994Nf1b662dc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/56a89b8fNfbaade9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/56ca6792N64e5eafc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/571734fdN2c8bfdb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/574d4bf8N700d614f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/577dd103N67caec65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5799a118N7da215bc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/579ef71eNc5bce6cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/579f23ccN5e22e48f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/57cfb628N297332ea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5804908cNd869da01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5825a5a6Nde8ecb75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/583eb3dbN1df5d225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/584fcc3eNdb0ab94c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/586d9acaNf1123347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5874a54dNcec29924.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5874a555Ne8192324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58afca92Ncb38b8b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58bf6956N07a174eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58c9f736N4e611532.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58ccfeb4N58fd70f0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58cfadb2Ndb66ef86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58d3c4fcNd94a9537.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58d862f3Nb2291131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58dcd97eN5cfbd0de.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58ec3c6eN4f9970ec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/58f9c1bbN6965b210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59015444N27317512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/591582a1N44d6d0e8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5919637aN271a1301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5926991bN5cbadbde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59277e26Nfaca3cae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59279a1bN999990f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5929482aN80510784.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592e7127N2313be91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592e9b89N008ee685.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592e9f09N5bd34e60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/592ee10bN1dea85b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5930ff6dN0abb0b30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59365592Nc6fe3227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/593e1fdaN28207ecb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59433015N866b682e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/594a358cN71d43ef0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5959a860Nd7c3a633.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5959f94dN8804eb46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/596f2dfcN17900184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/597ee771Nd8cd840e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/597fd125N28f99324.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5985525bN8ec74aba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59880667Nc3ecfba2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/598d474bN3e3dde68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/599079abNa63762a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/599a806bN9d829c1c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59a37d83Ne80e527f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59a51bf6Nb8e478cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ad0fabN2634aa72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59b6538cN394d8cbb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59bfbe3cN63e4979b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59c0e2afNe6b7016a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59cc9591N5ce2ba2e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ce706fN6f3f2a4a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59dd8156N3d39c5d5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ddfcb1Nc3edb8f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded60eN3110f3a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded620Nfc0ab489.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626N7c4cb0a3(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626N7c4cb0a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626Nda317ce2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded626Ne3c69b70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62cN6e9ac17c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62dN7e28abc5 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62dN7e28abc5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62dNfed003a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c(4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded62eN64a9784c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ded682N99d4efcc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e55e01N369f98f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e99c57Ne1056e92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e9b89bNf3f066a0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59e9bbecNe58deb0b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb0df9Nd66d7585.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e23N6c63b4ea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e44N0f65afb8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e45N462c0a2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e46Nb58fc1ba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e54N9518347e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eb1e56N3fcf5478.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ec0131Nf239df75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59ed97f0N0810fae9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edbbf0Ne7e848c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edbbf5Nb8fe2f00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edbbf5Ne0e97545.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfde5Nd6b2eeec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfdf4Ncd1e9097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfdfcNe72f8b35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfdffNe3f35b75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfe00N0e8c9a2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfe00N18280283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59edfe01N0c0b49cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eea4ffNfe6271f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb49Nfc2d1436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb60N51a2e6c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb61N56f65626.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb62N9b058172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb63N035a6300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59eefb64Na67961ff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f0427fN3ada7866.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f16e15Ndfc05e79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b961Nc55260a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96dNdbbcfb43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96dNff5d8def.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96eN385f8ca5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96eN56cd24dc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96eN8b7e8fae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b96fN67ba96f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f1b970N903fa8d1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f2d175N26c13dd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d654Nfcf1f120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66cN9a0ef348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66dN045d4a51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66dN56606681.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f3d66dN8597cc84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f6a384Nf2289c0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f6e051N89d361f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f814e7N34bad14a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f815a3N45b22491.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f81727N622de50e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f847a8Nfd15df61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f85b47Nc7a82590.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f964cbN88dc1222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59f994e4N84199d91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fa8badNdb1b317e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fab4e4Nff5ffb05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fac6f8N9099950f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/59fe85ddN280ddf1a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a002ba3N126c2f73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a016416N62c825e9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a016448N87be4827.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0547fcN92c93957.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054809N97546816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054815N64e6dc84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054816Nd8c5ae42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054816Nddc0ec46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054817Na82392d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a054818N3176323e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a05481aN8ba33038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a055f60Nac74f518.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a05a299Nf9e5af06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a068a75N20bddaec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06b868Nf3f72d02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06b8afN2b65caed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06b993Nceef8000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06c2d7N0ab96524.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a06c340N03fa254d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0717e2N8cf04467.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a071cf4N7d87ee5a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a07ca99N6b2d7aab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a07ca9cN0d94db58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a084a1aNa1aa0a71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942d8N7265b647.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942d9N6147e3f0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942d9Nd22f8a9c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942daN090b3406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942daN4abbd574.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0942dbNe7b03ec3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0950c8N0b273e29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0afeddNb34732af.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0c0bdeN7d5fb661.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0cee42Ndde54756.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0ceebdNeac43da1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0d4181Nf70c5ebf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0d47c6N9a39a6ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0d4aa3N09ae70b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0e4f24Ned35e1cf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a0e9616Nd5f8770f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125861N0d1919b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125889N8f23fee1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12588dN18850f0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12588eN24965b9c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12588fNa21bad0c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125890Ncf84abea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125892N8dc9ab04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a125893Neaf6da9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a12873eN41754123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a128eb5N17547a87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a128f16N8c26ce84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/5a14f5d5Nb20384f9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/6a645f3438653131303136363135633031343435353936373635323334_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/6a645f3539646565346232353163643631353130383139343135343432_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/7270ffc3baecdd448958f9f5e69cf60f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/73637134313531343537343034363439373539_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/7a797171353831333939383236383733373130_sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/81a6326edc82d343a5a8860a6970f93b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/90a6fa41d0d46b4fb0ff6907ca17c478.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/9224fcea62bfff479a6712ba3a6b47cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/a400e3d61d5645459f769b00d9f431e7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/afb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/animaite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/asma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/at.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/b769782fe4ecca40913ad375a71cb92d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/c688c683503b0547af23704aaec9c680.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/e4ed3606843f664591ff1f68f7fda12d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/eb0df.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/efod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ewm_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/f5831b9848b32440b381bcd30a3d96c7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/f64963b63d6e5849977ddd6afddc1db5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/fsma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ggg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/gwc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/herder-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/https-%2F%2Fitem.m.jd.com%2Fproduct%2F5544038.html-pc_source=pc_productDetail_5544038-118-1-4-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/huawei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/igg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iii.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/iin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/inn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ngi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/nnn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/oppo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/qglb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/shop_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sj_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/smaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/smaaa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/smabb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/sy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/tome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/toolbars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/xl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/ys.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/img/zj_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/jquery1.9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/SHOUhou.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/scss/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/static/shangpinxiangqing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/PmsProductSaleAttrMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/SkuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,23 +426,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-manage-service/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gmall-manage-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/gmall-item-web/src/main/resources/statics" />
       <recent name="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean" />
       <recent name="$PROJECT_DIR$/gmall-common-util/src/main/java/util" />
-      <recent name="$PROJECT_DIR$/gmall-manage-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/gmall-manage-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.gmall.manage.controller" />
@@ -123,10 +450,11 @@
       <recent name="com.atguigu.gmall.bean" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/gmall-user-service/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallManageServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GmallItemWebApplication">
     <configuration name="PmsUploadUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.PmsUploadUtil" />
       <module name="gmall-common-util" />
@@ -136,6 +464,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-item-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.item.GmallItemWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,6 +509,7 @@
       <item itemvalue="Spring Boot.GmallUserWebApplication" />
       <item itemvalue="Spring Boot.GmallManageServiceApplication" />
       <item itemvalue="Spring Boot.GmallManageWebApplication" />
+      <item itemvalue="Spring Boot.GmallItemWebApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -186,7 +522,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:gmall_study@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -208,7 +549,13 @@
       <workItem from="1582767262504" duration="44675000" />
       <workItem from="1583055266443" duration="1839000" />
       <workItem from="1583104266875" duration="4241000" />
-      <workItem from="1583223798523" duration="8544000" />
+      <workItem from="1583223798523" duration="10762000" />
+      <workItem from="1583372383384" duration="742000" />
+      <workItem from="1583375552856" duration="764000" />
+      <workItem from="1583376359175" duration="12952000" />
+      <workItem from="1583475796785" duration="253000" />
+      <workItem from="1583476089137" duration="2620000" />
+      <workItem from="1583480681024" duration="3064000" />
     </task>
     <servers />
   </component>
@@ -216,6 +563,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="90" key="#Inspections" timestamp="1583485376594">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="320" y="90" key="#Inspections/0.23.1440.803@0.23.1440.803" timestamp="1583485376594" />
     <state x="320" y="90" key="#Project_Structure" timestamp="1582707145959">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
@@ -226,10 +577,10 @@
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.803@0.23.1440.803" timestamp="1583199570983" />
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.804@0.23.1440.804" timestamp="1582947651028" />
     <state x="184" y="86" width="1132" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1583055744763" />
-    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1583294611964">
+    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1583475164362">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1583294611964" />
+    <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1583475164362" />
     <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.804@0.23.1440.804" timestamp="1582953181865" />
     <state x="533" y="115" key="#com.intellij.ide.util.MemberChooser/0.23.1440.806@0.23.1440.806" timestamp="1583054186073" />
     <state x="509" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582706329191">
@@ -240,80 +591,84 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="387" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.804@0.23.1440.804" timestamp="1582942198906" />
+    <state x="458" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583395891783">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="458" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.803@0.23.1440.803" timestamp="1583395891783" />
     <state width="475" height="464" key="DebuggerActiveHint" timestamp="1582943609078">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="475" height="464" key="DebuggerActiveHint/0.23.1440.804@0.23.1440.804" timestamp="1582943609078" />
-    <state width="1398" height="130" key="GridCell.Tab.0.bottom" timestamp="1583294494911">
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom" timestamp="1583486552497">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583294494911" />
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583486552497" />
     <state width="1398" height="281" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583057039506" />
     <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786967" />
-    <state width="1398" height="130" key="GridCell.Tab.0.center" timestamp="1583294494910">
+    <state width="1398" height="266" key="GridCell.Tab.0.center" timestamp="1583486552496">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1583294494910" />
+    <state width="1398" height="266" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1583486552496" />
     <state width="1398" height="281" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1583057039502" />
     <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786965" />
-    <state width="1398" height="130" key="GridCell.Tab.0.left" timestamp="1583294494909">
+    <state width="1398" height="266" key="GridCell.Tab.0.left" timestamp="1583486552495">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1583294494909" />
+    <state width="1398" height="266" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1583486552495" />
     <state width="1398" height="281" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1583057039500" />
     <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786963" />
-    <state width="1398" height="130" key="GridCell.Tab.0.right" timestamp="1583294494910">
+    <state width="1398" height="266" key="GridCell.Tab.0.right" timestamp="1583486552496">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1583294494910" />
+    <state width="1398" height="266" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1583486552496" />
     <state width="1398" height="281" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1583057039505" />
     <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786966" />
-    <state width="1398" height="130" key="GridCell.Tab.1.bottom" timestamp="1583294494912">
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1583486552500">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583294494912" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583486552500" />
     <state width="1398" height="281" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583056907714" />
     <state width="1398" height="172" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786972" />
-    <state width="1398" height="130" key="GridCell.Tab.1.center" timestamp="1583294494911">
+    <state width="1398" height="266" key="GridCell.Tab.1.center" timestamp="1583486552498">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1583294494911" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1583486552498" />
     <state width="1398" height="281" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1583056907713" />
     <state width="1398" height="172" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786970" />
-    <state width="1398" height="130" key="GridCell.Tab.1.left" timestamp="1583294494911">
+    <state width="1398" height="266" key="GridCell.Tab.1.left" timestamp="1583486552498">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1583294494911" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1583486552498" />
     <state width="1398" height="281" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1583056907712" />
     <state width="1398" height="172" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786969" />
-    <state width="1398" height="130" key="GridCell.Tab.1.right" timestamp="1583294494912">
+    <state width="1398" height="266" key="GridCell.Tab.1.right" timestamp="1583486552499">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="130" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1583294494912" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1583486552499" />
     <state width="1398" height="281" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1583056907714" />
     <state width="1398" height="172" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786971" />
-    <state width="1398" height="281" key="GridCell.Tab.2.bottom" timestamp="1583054989907">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="238" key="GridCell.Tab.2.bottom" timestamp="1583485994840">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.2.bottom/0.23.1440.803@0.23.1440.803" timestamp="1582894092340" />
+    <state width="1398" height="238" key="GridCell.Tab.2.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583485994840" />
     <state width="1398" height="121" key="GridCell.Tab.2.bottom/0.23.1440.804@0.23.1440.804" timestamp="1582947615454" />
     <state width="1398" height="281" key="GridCell.Tab.2.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583054989907" />
-    <state width="1398" height="281" key="GridCell.Tab.2.center" timestamp="1583054989906">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="238" key="GridCell.Tab.2.center" timestamp="1583485994839">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.2.center/0.23.1440.803@0.23.1440.803" timestamp="1582894092338" />
+    <state width="1398" height="238" key="GridCell.Tab.2.center/0.23.1440.803@0.23.1440.803" timestamp="1583485994839" />
     <state width="1398" height="121" key="GridCell.Tab.2.center/0.23.1440.804@0.23.1440.804" timestamp="1582947615452" />
     <state width="1398" height="281" key="GridCell.Tab.2.center/0.23.1440.806@0.23.1440.806" timestamp="1583054989906" />
-    <state width="1398" height="281" key="GridCell.Tab.2.left" timestamp="1583054989905">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="238" key="GridCell.Tab.2.left" timestamp="1583485994838">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.2.left/0.23.1440.803@0.23.1440.803" timestamp="1582894092337" />
+    <state width="1398" height="238" key="GridCell.Tab.2.left/0.23.1440.803@0.23.1440.803" timestamp="1583485994838" />
     <state width="1398" height="121" key="GridCell.Tab.2.left/0.23.1440.804@0.23.1440.804" timestamp="1582947615452" />
     <state width="1398" height="281" key="GridCell.Tab.2.left/0.23.1440.806@0.23.1440.806" timestamp="1583054989905" />
-    <state width="1398" height="281" key="GridCell.Tab.2.right" timestamp="1583054989906">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state width="1398" height="238" key="GridCell.Tab.2.right" timestamp="1583485994839">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.2.right/0.23.1440.803@0.23.1440.803" timestamp="1582894092340" />
+    <state width="1398" height="238" key="GridCell.Tab.2.right/0.23.1440.803@0.23.1440.803" timestamp="1583485994839" />
     <state width="1398" height="121" key="GridCell.Tab.2.right/0.23.1440.804@0.23.1440.804" timestamp="1582947615453" />
     <state width="1398" height="281" key="GridCell.Tab.2.right/0.23.1440.806@0.23.1440.806" timestamp="1583054989906" />
     <state x="258" y="86" key="Maven.ArtifactSearchDialog" timestamp="1583035847145">
@@ -326,10 +681,10 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="370" y="127" key="NewModule_or_Project.wizard/0.23.1440.806@0.23.1440.806" timestamp="1583052800655" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1583052821548">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1583484576464">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1582795908376" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1583484576464" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1582707623590" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1583052821548" />
     <state x="450" y="164" width="540" height="526" key="StructurePopup" timestamp="1583053301208">
@@ -337,10 +692,10 @@
     </state>
     <state x="450" y="163" width="540" height="524" key="StructurePopup/0.23.1440.803@0.23.1440.803" timestamp="1583045806097" />
     <state x="450" y="164" width="540" height="526" key="StructurePopup/0.23.1440.806@0.23.1440.806" timestamp="1583053301208" />
-    <state width="500" height="496" key="SwitcherDM" timestamp="1583320179907">
+    <state width="500" height="516" key="SwitcherDM" timestamp="1583485507526">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="500" height="496" key="SwitcherDM/0.23.1440.803@0.23.1440.803" timestamp="1583320179907" />
+    <state width="500" height="516" key="SwitcherDM/0.23.1440.803@0.23.1440.803" timestamp="1583485507526" />
     <state width="500" height="516" key="SwitcherDM/0.23.1440.804@0.23.1440.804" timestamp="1582954045966" />
     <state width="500" height="498" key="SwitcherDM/0.23.1440.806@0.23.1440.806" timestamp="1583051429110" />
     <state x="521" y="209" key="chooseDestDirectoryDialog" timestamp="1582944299026">
@@ -355,23 +710,23 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="278" y="167" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.804@0.23.1440.804" timestamp="1582947606023" />
-    <state x="70" y="129" key="extract.method.dialog" timestamp="1582897290493">
+    <state x="377" y="142" key="extract.method.dialog" timestamp="1583396713198">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="70" y="129" key="extract.method.dialog/0.23.1440.803@0.23.1440.803" timestamp="1582897290493" />
+    <state x="377" y="142" key="extract.method.dialog/0.23.1440.803@0.23.1440.803" timestamp="1583396713198" />
     <state x="400" y="181" width="639" height="486" key="find.popup" timestamp="1582703157466">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="400" y="181" width="639" height="486" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1582703157466" />
-    <state x="149" y="122" key="new project wizard" timestamp="1582795723005">
+    <state x="149" y="122" key="new project wizard" timestamp="1583326051716">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="149" y="122" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1582795723005" />
+    <state x="149" y="122" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1583326051716" />
     <state x="149" y="122" key="new project wizard/0.23.1440.806@0.23.1440.806" timestamp="1582705381240" />
-    <state x="385" y="153" width="670" height="674" key="search.everywhere.popup" timestamp="1583222790417">
+    <state x="385" y="153" width="670" height="674" key="search.everywhere.popup" timestamp="1583484462203">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="385" y="153" width="670" height="674" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1583222790417" />
+    <state x="385" y="153" width="670" height="674" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1583484462203" />
     <state x="385" y="153" width="670" height="675" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1583033673512" />
     <state x="385" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1583052977097" />
   </component>
@@ -387,6 +742,16 @@
           <url>file://$PROJECT_DIR$/gmall-common-util/src/main/java/util/PmsUploadUtil.java</url>
           <line>17</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

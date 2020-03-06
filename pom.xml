@@ -18,5 +18,6 @@
         <module>gmall-user-web</module>
         <module>gmall-manage-service</module>
         <module>gmall-manage-web</module>
+        <module>gmall-item-web</module>
     </modules>
 </project>
