@@ -1,10 +1,11 @@
 package com.atguigu.gmall.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.bean.*;
 import com.atguigu.gmall.manage.mapper.*;
-import com.atguigu.gmall.manage.util.RedisUtil;
 import com.atguigu.gmall.service.SkuService;
+import com.atguigu.gmall.manage.util.RedisUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
@@ -29,6 +30,8 @@ public class SkuServiceImpl  implements SkuService {
     private PmsProductSaleAttrMapper pmsProductSaleAttrMapper;
     @Autowired
     private PmsProductSaleAttrValueMapper pmsProductSaleAttrValueMapper;
+    @Autowired
+    private RedisUtil redisUtil;
 
     @Override
     public String saveSkuInfo(PmsSkuInfo pmsSkuInfo) {
@@ -99,10 +102,36 @@ public class SkuServiceImpl  implements SkuService {
     @Override
     public PmsSkuInfo getSkuById(String skuId) {
         PmsSkuInfo pmsSkuInfo = new PmsSkuInfo();
-        RedisUtil redisUtil = new RedisUtil();
+//        连接缓存
         Jedis jedis = redisUtil.getJedis();
-        System.out.println(jedis);
+//        查询缓存
+        String skuKey = "sku:" + skuId + ":info";
+        String skuJson = jedis.get(skuKey);
+        if (StringUtils.isNotBlank(skuJson)){
+            pmsSkuInfo = JSON.parseObject(skuJson, PmsSkuInfo.class);
+        }else {
+//        缓存查不到，缓存查询sql
+//            设置分布式锁
+            String OK = jedis.set("sku:" + skuId + ":info", "1", "NX", "PX", 10);
+            if (StringUtils.isNotBlank(OK) && "OK".equals(OK)){
+                pmsSkuInfo = getSkuByIdFromDB(skuId);
+//        sql返回结果给客户端并将结果写入缓存
+                if (pmsSkuInfo != null){
+                    jedis.set("sku:" + skuId + ":info",JSON.toJSONString(pmsSkuInfo));
+                }else {
+//                sql也查不到，防止缓存穿透，设置null或者""
+                    jedis.setex("sku:" + skuId + ":info",60*3,JSON.toJSONString(""));
+                }
+            }else {
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return getSkuById(skuId);
+            }
 
+        }
         jedis.close();
         return pmsSkuInfo;
     }

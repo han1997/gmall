@@ -10,12 +10,12 @@
         <module name="gmall-common-util" />
         <module name="fastdfs-client-java" />
         <module name="gmall-manage-web" />
-        <module name="gmall-web-util" />
+        <module name="gmall-item-web" />
         <module name="gmall-manage-service" />
         <module name="gmall-interface" />
         <module name="gmall-api" />
         <module name="gmall" />
-        <module name="gmall-item-web" />
+        <module name="gmall-web-util" />
         <module name="gmall-service-util" />
         <module name="gmall-user-service" />
         <module name="gmall-user-web" />

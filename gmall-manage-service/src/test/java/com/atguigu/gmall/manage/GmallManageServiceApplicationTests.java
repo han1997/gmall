@@ -17,8 +17,7 @@ public class GmallManageServiceApplicationTests {
     @Test
     public void contextLoads(){
         Jedis jedis = redisUtil.getJedis();
-        System.out.println(jedis);
-
+        System.out.println(jedis.get("hhy"));
     }
 
 }

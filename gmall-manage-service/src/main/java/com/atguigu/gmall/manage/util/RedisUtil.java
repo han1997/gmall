@@ -9,7 +9,7 @@ import redis.clients.jedis.JedisPoolConfig;
  * 2020/3/9
  */
 public class RedisUtil {
-    private JedisPool jedisPool;
+    private JedisPool   jedisPool;
 
     public void initPool(String host,int port ,int database){
         JedisPoolConfig poolConfig = new JedisPoolConfig();
