@@ -97,7 +97,13 @@ public class SkuServiceImpl  implements SkuService {
 
     @Override
     public List<PmsProductSaleAttr> spuSaleAttrListCheckBySku(String productId ,String skuId) {
-        List<PmsProductSaleAttr> productSaleAttrList = pmsProductSaleAttrMapper.spuSaleAttrListCheckBySku(productId,skuId);
+        List<PmsProductSaleAttr> productSaleAttrList = pmsProductSaleAttrMapper.selectSpuSaleAttrListCheckBySku(productId,skuId);
         return productSaleAttrList;
+    }
+
+    @Override
+    public List<PmsSkuInfo> getSkuSaleAttrValueListBySpu(String productId) {
+        List<PmsSkuInfo> skuInfoList = pmsSkuInfoMapper.selectSkuSaleAttrValueListBySpu(productId);
+        return skuInfoList;
     }
 }

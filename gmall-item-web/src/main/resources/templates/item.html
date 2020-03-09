@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css"/>
 	</head>
 	<body>
+	<input type="hidden" id="valuesSku" th:value="${skuSaleAttrValueMapJsonStr}">
 		<div id="max">
 		<header>
 
@@ -1020,6 +1021,20 @@
         }
 
         function switchSkuId() {
+			let skuSaleAttrValueJsonStr = $("#valuesSku").val();
+			let saleAttrValueIds = $(".redborder div");
+			var k = "";
+
+			$(saleAttrValueIds).each(function (i,saleAttrValueId) {
+				k = k + $(saleAttrValueId).attr("value") + "|";
+			});
+
+			let skuSaleAttrValueJson = JSON.parse(skuSaleAttrValueJsonStr);
+			var v_skuId = skuSaleAttrValueJson[k];
+
+			if(v_skuId){
+				window.location.href = "http://localhost:8082/"+ v_skuId+".html";
+			}
             // 被选中属性
             var checkDivs = $(".redborder div");
             var valueIds="";
