@@ -3,9 +3,11 @@ package com.atguigu.gmall.manage.service.impl;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.atguigu.gmall.bean.*;
 import com.atguigu.gmall.manage.mapper.*;
+import com.atguigu.gmall.manage.util.RedisUtil;
 import com.atguigu.gmall.service.SkuService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import redis.clients.jedis.Jedis;
 
 import java.util.List;
 
@@ -64,7 +66,7 @@ public class SkuServiceImpl  implements SkuService {
     }
 
     @Override
-    public PmsSkuInfo getSkuById(String skuId) {
+    public PmsSkuInfo getSkuByIdFromDB(String skuId) {
 //      获取sku基本信息
         PmsSkuInfo pmsSkuInfo = new PmsSkuInfo();
         pmsSkuInfo.setId(skuId);
@@ -93,6 +95,16 @@ public class SkuServiceImpl  implements SkuService {
         skuInfo.setPmsSkuSaleAttrValueList(saleAttrValueList);
 
         return skuInfo;
+    }
+    @Override
+    public PmsSkuInfo getSkuById(String skuId) {
+        PmsSkuInfo pmsSkuInfo = new PmsSkuInfo();
+        RedisUtil redisUtil = new RedisUtil();
+        Jedis jedis = redisUtil.getJedis();
+        System.out.println(jedis);
+
+        jedis.close();
+        return pmsSkuInfo;
     }
 
     @Override

@@ -18,6 +18,14 @@ spring:
     registry:
       address: 192.168.123.27:2181
       protocol: zookeeper
+  #redis
+  redis:
+    host: 192.168.123.27
+    port: 6379
+    database: 0
+    pool:
+      max-wait: 1000
+
 logging:
   level:
     root: info
