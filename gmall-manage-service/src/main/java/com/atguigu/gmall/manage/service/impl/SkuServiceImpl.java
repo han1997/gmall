@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
 
 import java.util.List;
+import java.util.UUID;
 
 /**
  * @author hhy1997
@@ -101,6 +102,7 @@ public class SkuServiceImpl  implements SkuService {
     }
     @Override
     public PmsSkuInfo getSkuById(String skuId) {
+
         PmsSkuInfo pmsSkuInfo = new PmsSkuInfo();
 //        连接缓存
         Jedis jedis = redisUtil.getJedis();
@@ -111,8 +113,10 @@ public class SkuServiceImpl  implements SkuService {
             pmsSkuInfo = JSON.parseObject(skuJson, PmsSkuInfo.class);
         }else {
 //        缓存查不到，缓存查询sql
+            //作为标识码防止误删其他客户端的锁
+            String token = UUID.randomUUID().toString();
 //            设置分布式锁
-            String OK = jedis.set("sku:" + skuId + ":info", "1", "NX", "PX", 10);
+            String OK = jedis.set("sku:" + skuId + ":lock", token, "NX", "PX", 10 * 1000);
             if (StringUtils.isNotBlank(OK) && "OK".equals(OK)){
                 pmsSkuInfo = getSkuByIdFromDB(skuId);
 //        sql返回结果给客户端并将结果写入缓存
@@ -122,6 +126,15 @@ public class SkuServiceImpl  implements SkuService {
 //                sql也查不到，防止缓存穿透，设置null或者""
                     jedis.setex("sku:" + skuId + ":info",60*3,JSON.toJSONString(""));
                 }
+//                验证是否是自己的锁
+                String lockToken = jedis.get("sku:" + skuId + ":lock");
+                if (StringUtils.isNotBlank(lockToken) && lockToken.equals(token)){
+//                去除分布式锁
+                    jedis.del("sku:" + skuId + ":lock");
+                }
+//              防止在确认自己锁的瞬间，自己的锁失效，使用lua脚本
+//                String script = "";
+//                jedis.eval(script,)
             }else {
                 try {
                     Thread.sleep(3000);

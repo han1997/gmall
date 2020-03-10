@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/conf/GmallRedissonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-item-web/src/main/java/com/atguigu/gmall/item/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/util/RedisUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall-manage-service/src/test/java/com/atguigu/gmall/manage/GmallManageServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-manage-service/src/test/java/com/atguigu/gmall/manage/GmallManageServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-service-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +297,7 @@
       <workItem from="1583730060214" duration="1909000" />
       <workItem from="1583735035756" duration="1440000" />
       <workItem from="1583737963513" duration="6382000" />
-      <workItem from="1583761071927" duration="3376000" />
+      <workItem from="1583761071927" duration="5355000" />
     </task>
     <servers />
   </component>
@@ -363,52 +364,52 @@
     </state>
     <state width="528" height="464" key="DebuggerActiveHint/0.23.1440.803@0.23.1440.803" timestamp="1583762102872" />
     <state width="475" height="464" key="DebuggerActiveHint/0.23.1440.804@0.23.1440.804" timestamp="1582943609078" />
-    <state width="1398" height="186" key="GridCell.Tab.0.bottom" timestamp="1583763534333">
+    <state width="1398" height="186" key="GridCell.Tab.0.bottom" timestamp="1583767389284">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583763534333" />
+    <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583767389284" />
     <state width="1398" height="281" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583057039506" />
     <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786967" />
-    <state width="1398" height="186" key="GridCell.Tab.0.center" timestamp="1583763534332">
+    <state width="1398" height="186" key="GridCell.Tab.0.center" timestamp="1583767389282">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1583763534332" />
+    <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1583767389282" />
     <state width="1398" height="281" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1583057039502" />
     <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786965" />
-    <state width="1398" height="186" key="GridCell.Tab.0.left" timestamp="1583763534331">
+    <state width="1398" height="186" key="GridCell.Tab.0.left" timestamp="1583767389281">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1583763534331" />
+    <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1583767389281" />
     <state width="1398" height="281" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1583057039500" />
     <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786963" />
-    <state width="1398" height="186" key="GridCell.Tab.0.right" timestamp="1583763534333">
+    <state width="1398" height="186" key="GridCell.Tab.0.right" timestamp="1583767389283">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1583763534333" />
+    <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1583767389283" />
     <state width="1398" height="281" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1583057039505" />
     <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786966" />
-    <state width="1398" height="186" key="GridCell.Tab.1.bottom" timestamp="1583763534337">
+    <state width="1398" height="186" key="GridCell.Tab.1.bottom" timestamp="1583767389287">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583763534337" />
+    <state width="1398" height="186" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1583767389287" />
     <state width="1398" height="281" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583056907714" />
     <state width="1398" height="172" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786972" />
-    <state width="1398" height="186" key="GridCell.Tab.1.center" timestamp="1583763534335">
+    <state width="1398" height="186" key="GridCell.Tab.1.center" timestamp="1583767389285">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1583763534335" />
+    <state width="1398" height="186" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1583767389285" />
     <state width="1398" height="281" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1583056907713" />
     <state width="1398" height="172" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786970" />
-    <state width="1398" height="186" key="GridCell.Tab.1.left" timestamp="1583763534334">
+    <state width="1398" height="186" key="GridCell.Tab.1.left" timestamp="1583767389285">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1583763534334" />
+    <state width="1398" height="186" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1583767389285" />
     <state width="1398" height="281" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1583056907712" />
     <state width="1398" height="172" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786969" />
-    <state width="1398" height="186" key="GridCell.Tab.1.right" timestamp="1583763534336">
+    <state width="1398" height="186" key="GridCell.Tab.1.right" timestamp="1583767389286">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="186" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1583763534336" />
+    <state width="1398" height="186" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1583767389286" />
     <state width="1398" height="281" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1583056907714" />
     <state width="1398" height="172" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786971" />
     <state width="1398" height="202" key="GridCell.Tab.2.bottom" timestamp="1583763242048">
@@ -504,7 +505,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gmall-manage-service/src/test/java/com/atguigu/gmall/manage/GmallManageServiceApplicationTests.java</url>
-          <line>18</line>
+          <line>22</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
