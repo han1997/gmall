@@ -8,3 +8,5 @@
 - manage-service: 8071
 - item-web: 8082
 - <del>item-service: 8072</del>
+- search-web: 8083
+- search-service: 8073

@@ -1,0 +1,34 @@
+
+server:
+  port: 8073
+
+# mysql
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gmall_study
+    username: root
+    password: 970821
+# dubbo
+  dubbo:
+    application: search-service
+    base-package: com.atguigu.gmall
+    protocol:
+      name: dubbo
+    registry:
+      address: 192.168.123.27:2181
+      protocol: zookeeper
+
+# es
+  elasticsearch:
+    jest:
+      uris: http://192.168.123.27:9200
+
+logging:
+  level:
+    root: info
+  #mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true

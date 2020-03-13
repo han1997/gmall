@@ -19,5 +19,6 @@
         <module>gmall-manage-service</module>
         <module>gmall-manage-web</module>
         <module>gmall-item-web</module>
+        <module>gmall-search-web</module>
     </modules>
 </project>
