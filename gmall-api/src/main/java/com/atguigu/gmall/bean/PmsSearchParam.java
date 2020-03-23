@@ -14,5 +14,5 @@ import java.util.List;
 public class PmsSearchParam implements Serializable {
     private String catalog3Id;
     private String keyword;
-    private List<PmsSkuAttrValue> pmsSkuAttrValueList;
+    private String[] valueId;
 }

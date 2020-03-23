@@ -3,7 +3,6 @@ package com.atguigu.gmall.search.service.impl;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.atguigu.gmall.bean.PmsSearchParam;
 import com.atguigu.gmall.bean.PmsSearchSkuInfo;
-import com.atguigu.gmall.bean.PmsSkuAttrValue;
 import com.atguigu.gmall.service.SearchService;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Search;
@@ -77,8 +76,10 @@ public class SearchServiceImpl implements SearchService {
         for (SearchResult.Hit<PmsSearchSkuInfo, Void> hit : hits) {
             PmsSearchSkuInfo pmsSearchSkuInfo = hit.source;
             Map<String, List<String>> highlight = hit.highlight;
-            String skuName = highlight.get("skuName").get(0);
-            pmsSearchSkuInfo.setSkuName(skuName);
+            if (highlight != null){
+                String skuName = highlight.get("skuName").get(0);
+                pmsSearchSkuInfo.setSkuName(skuName);
+            }
             pmsSearchSkuInfos.add(pmsSearchSkuInfo);
         }
         return pmsSearchSkuInfos;
@@ -87,15 +88,15 @@ public class SearchServiceImpl implements SearchService {
     private String getSearchDsl(PmsSearchParam pmsSearchParam) {
         String catalog3Id = pmsSearchParam.getCatalog3Id();
         String keyword = pmsSearchParam.getKeyword();
-        List<PmsSkuAttrValue> pmsSkuAttrValueList = pmsSearchParam.getPmsSkuAttrValueList();
+        String[] valueIds = pmsSearchParam.getValueId();
 
 //        dsl语句构造器
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
         BoolQueryBuilder boolQueryBuilder = new BoolQueryBuilder();
 //        filter-----term---过滤
-        if (pmsSkuAttrValueList != null) {
-            for (PmsSkuAttrValue pmsSkuAttrValue : pmsSkuAttrValueList) {
-                TermQueryBuilder termQueryBuilder = new TermQueryBuilder("PmsSkuAttrValueList.valueId", pmsSkuAttrValue.getValueId());
+        if (valueIds != null && valueIds.length > 0) {
+            for (String valueId : valueIds) {
+                TermQueryBuilder termQueryBuilder = new TermQueryBuilder("PmsSkuAttrValueList.valueId", valueId);
                 boolQueryBuilder.filter(termQueryBuilder);
             }
         }
@@ -116,12 +117,17 @@ public class SearchServiceImpl implements SearchService {
 //        排序
         searchSourceBuilder.sort("id", SortOrder.DESC);
 //        高亮
+
         HighlightBuilder highlightBuilder = new HighlightBuilder();
 //        自定义高亮
         highlightBuilder.preTags("<span style='color: red;'>");
         highlightBuilder.field("skuName");
         highlightBuilder.postTags("</span>");
         searchSourceBuilder.highlight(highlightBuilder);
+
+//        aggs
+        /*TermsBuilder groupby_attr = AggregationBuilders.terms("groupby_attr").field("PmsSkuAttrValueList.valueId");
+        searchSourceBuilder.aggregation(groupby_attr);*/
 
 //        用api执行复杂的查询操作
         return searchSourceBuilder.toString();
