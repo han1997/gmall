@@ -72,15 +72,21 @@ public class SearchServiceImpl implements SearchService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        List<SearchResult.Hit<PmsSearchSkuInfo, Void>> hits = searchResult.getHits(PmsSearchSkuInfo.class);
-        for (SearchResult.Hit<PmsSearchSkuInfo, Void> hit : hits) {
-            PmsSearchSkuInfo pmsSearchSkuInfo = hit.source;
-            Map<String, List<String>> highlight = hit.highlight;
-            if (highlight != null){
-                String skuName = highlight.get("skuName").get(0);
-                pmsSearchSkuInfo.setSkuName(skuName);
+        List<SearchResult.Hit<PmsSearchSkuInfo, Void>> hits = null;
+        try {
+            hits = searchResult.getHits(PmsSearchSkuInfo.class);
+            for (SearchResult.Hit<PmsSearchSkuInfo, Void> hit : hits) {
+                PmsSearchSkuInfo pmsSearchSkuInfo = hit.source;
+                Map<String, List<String>> highlight = hit.highlight;
+                if (highlight != null){
+                    String skuName = highlight.get("skuName").get(0);
+                    pmsSearchSkuInfo.setSkuName(skuName);
+                }
+                pmsSearchSkuInfos.add(pmsSearchSkuInfo);
             }
-            pmsSearchSkuInfos.add(pmsSearchSkuInfo);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
         return pmsSearchSkuInfos;
     }

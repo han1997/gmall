@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/gmall-common-util/fastdfs-client-java-1.27/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-search-web/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-cart-web/pom.xml" />
       </list>
     </option>
   </component>

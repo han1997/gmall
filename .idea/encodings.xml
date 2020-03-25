@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/gmall-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall-cart-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-common-util/fastdfs-client-java-1.27/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-common-util/fastdfs-client-java-1.27/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall-common-util/src/main/java" charset="UTF-8" />

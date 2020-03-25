@@ -1,0 +1,19 @@
+package com.atguigu.gmall.cart;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+import tk.mybatis.spring.annotation.MapperScan;
+
+@SpringBootApplication
+@MapperScan("com.atguigu.gmall.cart.mapper")
+@ComponentScan("com.atguigu.gmall.manage")
+
+public class GmallCartServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GmallCartServiceApplication.class, args);
+	}
+
+}
