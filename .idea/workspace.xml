@@ -2,166 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2819a914-db7e-459a-b805-00d971834920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean/OmsCartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/mapper/OmsCartItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-service/src/main/java/com/atguigu/gmall/cart/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/bootstrap/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/One_bdyStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/One_mainFoot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/success.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/1fb04a3972bf9f4592bdb705fe497c08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/57b191f2N15993cbb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/5874a54dNcec29924.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/5874a555Ne8192324.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/58ff269fN7b7e087b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/59a51bf6Nb8e478cc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/59ae02fcN529cc4a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/59ce706fN6f3f2a4a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/5b0329eb8920f541b8b2cba483365577.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/8104b36ae6b72043ae838599d36d007d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/a64b429ebf83d2459a0a73830f4ad4c4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/c0935b2c6504a5419e6ee507a5381bbe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/header_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/image/header_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/DengluJd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/QQ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/buyNumleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/buyNumright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/footer9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/huangou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/logo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/loopShop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/main_one8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/myshop_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/myshop_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/myshop_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/myshop_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_main9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_mian_gwc1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/one_mian_gwc2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/saoyisao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/shop1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/shop2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/shop3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/shop4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/shop_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/上 箭头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/上箭头red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/下箭头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/下箭头black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/京东支付.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/写.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/写作.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/包.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/头像.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/安全.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/微信.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/心04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/思考.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/感叹三角形 (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/灯.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/猪.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/疑问.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/箭头fix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/错误.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/img/闪电.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/js/success.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/static/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/templates/One_JDshop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/templates/cartList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/templates/cartListInner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-web-util/src/main/java/com/atguigu/gmall/util/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/java/com/atguigu/gmall/q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common-util/src/main/java/util/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/java/com/atguigu/gmall/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/java/com/atguigu/gmall/passport/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/css/gm1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/css/gm1.css.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/4de5019d2404d347897dee637895d02b_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/4de5019d2404d347897dee637895d02b_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/4de5019d2404d347897dee637895d02b_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/4de5019d2404d347897dee637895d02b_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/4de5019d2404d347897dee637895d02b_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/4de5019d2404d347897dee637895d02b_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/5731485aN1134b4f0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/a65a18e877a16246a92e1b755bd88a03_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/a65a18e877a16246a92e1b755bd88a03_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/f760f80838eafa4ba85463ce6ce1298d_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/grow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/grow2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/img22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/phone-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/user_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/user_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static/js/zepto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-passport-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web-util/src/main/java/com/atguigu/gmall/annotations/LoginRequired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web-util/src/main/java/com/atguigu/gmall/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web-util/src/main/java/com/atguigu/gmall/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web-util/src/main/java/com/atguigu/gmall/util/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-9.st" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-search-service/src/main/java/com/atguigu/gmall/search/service/impl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-search-service/src/main/java/com/atguigu/gmall/search/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/GmallCartWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/java/com/atguigu/gmall/GmallCartWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/templates/cartList.html" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-cart-web/src/main/resources/templates/cartList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-search-web/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-search-web/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,8 +96,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -261,7 +149,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -272,30 +160,32 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atguigu.gmall.service" />
-      <recent name="com.atguigu.gmall.bean" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gmall-passport-web/src/main/resources/tamplates" />
+      <recent name="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/gmall-user-service/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.atguigu.gmall.manage" />
       <recent name="com.atguigu.gmall" />
+      <recent name="com.atguigu.gmall.manage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gmall-passport-web/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/gmall-passport-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/gmall-api/src/main/java/com/atguigu/gmall/bean" />
       <recent name="$PROJECT_DIR$/gmall-cart-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/gmall-cart-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/gmall-search-web/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.gmall.manage.controller" />
       <recent name="com.atguigu.gmall.manage.mapper" />
       <recent name="com.atguigu.gmall.bean" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/gmall-item-web/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/gmall-user-service/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.gmall.annotations" />
+      <recent name="com.atguigu.gmall.service" />
+      <recent name="com.atguigu.gmall.bean" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -312,7 +202,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallCartWebApplication">
+  <component name="RunManager" selected="Spring Boot.GmallPassportWebApplication">
     <configuration name="Select" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.bean.Select" />
       <module name="gmall-api" />
@@ -366,7 +256,7 @@
     </configuration>
     <configuration name="GmallCartWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gmall-cart-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.cart.GmallCartWebApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.GmallCartWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,6 +278,13 @@
     <configuration name="GmallManageWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gmall-manage-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.manage.GmallManageWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPassportWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-passport-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.GmallPassportWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -433,6 +330,7 @@
       <item itemvalue="Spring Boot.GmallSearchServiceApplication" />
       <item itemvalue="Spring Boot.GmallCartWebApplication" />
       <item itemvalue="Spring Boot.GmallCartServiceApplication" />
+      <item itemvalue="Spring Boot.GmallPassportWebApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -450,11 +348,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:gmall_study@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:gmall_study@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@4c826cbb" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -498,7 +391,7 @@
       <workItem from="1584925054839" duration="20957000" />
       <workItem from="1585024010326" duration="15703000" />
       <workItem from="1585054732567" duration="11228000" />
-      <workItem from="1585104948156" duration="5831000" />
+      <workItem from="1585104948156" duration="20829000" />
     </task>
     <servers />
   </component>
@@ -519,15 +412,19 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="90" key="#Inspections" timestamp="1583485376594">
+    <state x="320" y="90" key="#Inspections" timestamp="1585125482195">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="320" y="90" key="#Inspections/0.23.1440.803@0.23.1440.803" timestamp="1583485376594" />
+    <state x="320" y="90" key="#Inspections/0.23.1440.803@0.23.1440.803" timestamp="1585125482195" />
     <state x="320" y="90" key="#Project_Structure" timestamp="1585032581565">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="320" y="90" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1585032581565" />
     <state x="320" y="90" key="#Project_Structure/0.23.1440.806@0.23.1440.806" timestamp="1582707145959" />
+    <state x="436" y="228" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1585122714160">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="436" y="228" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1440.803@0.23.1440.803" timestamp="1585122714160" />
     <state x="184" y="86" width="1132" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584090075496">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
@@ -545,10 +442,10 @@
     </state>
     <state x="509" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.803@0.23.1440.803" timestamp="1583762977012" />
     <state x="509" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.806@0.23.1440.806" timestamp="1582706329191" />
-    <state x="425" y="291" width="589" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583762993962">
+    <state x="425" y="291" width="589" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585141426348">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="425" y="291" width="589" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.803@0.23.1440.803" timestamp="1583762993962" />
+    <state x="425" y="291" width="589" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.803@0.23.1440.803" timestamp="1585141426348" />
     <state x="425" y="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1583762926891">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
@@ -558,85 +455,85 @@
     </state>
     <state x="387" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1585041971502" />
     <state x="387" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.804@0.23.1440.804" timestamp="1582942198906" />
-    <state x="458" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583395891783">
+    <state x="458" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585123200053">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="458" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.803@0.23.1440.803" timestamp="1583395891783" />
+    <state x="458" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.803@0.23.1440.803" timestamp="1585123200053" />
     <state width="528" height="464" key="DebuggerActiveHint" timestamp="1585113038610">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="528" height="464" key="DebuggerActiveHint/0.23.1440.803@0.23.1440.803" timestamp="1585113038610" />
     <state width="498" height="464" key="DebuggerActiveHint/0.23.1440.804@0.23.1440.804" timestamp="1584090579620" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1585119602755">
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom" timestamp="1585187314700">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585119602754" />
+    <state width="1398" height="219" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585187314700" />
     <state width="1398" height="125" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1584092613066" />
     <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786967" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1585119602753">
+    <state width="1398" height="219" key="GridCell.Tab.0.center" timestamp="1585187314698">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1585119602753" />
+    <state width="1398" height="219" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1585187314698" />
     <state width="1398" height="125" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1584092613062" />
     <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786965" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1585119602753">
+    <state width="1398" height="219" key="GridCell.Tab.0.left" timestamp="1585187314698">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1585119602753" />
+    <state width="1398" height="219" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1585187314698" />
     <state width="1398" height="125" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1584092613061" />
     <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786963" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1585119602754">
+    <state width="1398" height="219" key="GridCell.Tab.0.right" timestamp="1585187314699">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1585119602754" />
+    <state width="1398" height="219" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1585187314699" />
     <state width="1398" height="125" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1584092613064" />
     <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786966" />
-    <state width="1398" height="195" key="GridCell.Tab.1.bottom" timestamp="1585119602756">
+    <state width="1398" height="219" key="GridCell.Tab.1.bottom" timestamp="1585187314701">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585119602756" />
+    <state width="1398" height="219" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585187314701" />
     <state width="1398" height="125" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1584092613073" />
     <state width="1398" height="172" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583055786972" />
-    <state width="1398" height="195" key="GridCell.Tab.1.center" timestamp="1585119602755">
+    <state width="1398" height="219" key="GridCell.Tab.1.center" timestamp="1585187314701">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1585119602755" />
+    <state width="1398" height="219" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1585187314701" />
     <state width="1398" height="125" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1584092613072" />
     <state width="1398" height="172" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1583055786970" />
-    <state width="1398" height="195" key="GridCell.Tab.1.left" timestamp="1585119602755">
+    <state width="1398" height="219" key="GridCell.Tab.1.left" timestamp="1585187314700">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1585119602755" />
+    <state width="1398" height="219" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1585187314700" />
     <state width="1398" height="125" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1584092613070" />
     <state width="1398" height="172" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1583055786969" />
-    <state width="1398" height="195" key="GridCell.Tab.1.right" timestamp="1585119602756">
+    <state width="1398" height="219" key="GridCell.Tab.1.right" timestamp="1585187314701">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1585119602756" />
+    <state width="1398" height="219" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1585187314701" />
     <state width="1398" height="125" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1584092613073" />
     <state width="1398" height="172" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1583055786971" />
-    <state width="1398" height="148" key="GridCell.Tab.2.bottom" timestamp="1585113377749">
+    <state width="1398" height="219" key="GridCell.Tab.2.bottom" timestamp="1585187314703">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="148" key="GridCell.Tab.2.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585113377749" />
+    <state width="1398" height="219" key="GridCell.Tab.2.bottom/0.23.1440.803@0.23.1440.803" timestamp="1585187314703" />
     <state width="1398" height="162" key="GridCell.Tab.2.bottom/0.23.1440.804@0.23.1440.804" timestamp="1584091537260" />
     <state width="1398" height="281" key="GridCell.Tab.2.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583054989907" />
-    <state width="1398" height="148" key="GridCell.Tab.2.center" timestamp="1585113377748">
+    <state width="1398" height="219" key="GridCell.Tab.2.center" timestamp="1585187314702">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="148" key="GridCell.Tab.2.center/0.23.1440.803@0.23.1440.803" timestamp="1585113377748" />
+    <state width="1398" height="219" key="GridCell.Tab.2.center/0.23.1440.803@0.23.1440.803" timestamp="1585187314702" />
     <state width="1398" height="162" key="GridCell.Tab.2.center/0.23.1440.804@0.23.1440.804" timestamp="1584091537259" />
     <state width="1398" height="281" key="GridCell.Tab.2.center/0.23.1440.806@0.23.1440.806" timestamp="1583054989906" />
-    <state width="1398" height="148" key="GridCell.Tab.2.left" timestamp="1585113377747">
+    <state width="1398" height="219" key="GridCell.Tab.2.left" timestamp="1585187314702">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="148" key="GridCell.Tab.2.left/0.23.1440.803@0.23.1440.803" timestamp="1585113377747" />
+    <state width="1398" height="219" key="GridCell.Tab.2.left/0.23.1440.803@0.23.1440.803" timestamp="1585187314702" />
     <state width="1398" height="162" key="GridCell.Tab.2.left/0.23.1440.804@0.23.1440.804" timestamp="1584091537259" />
     <state width="1398" height="281" key="GridCell.Tab.2.left/0.23.1440.806@0.23.1440.806" timestamp="1583054989905" />
-    <state width="1398" height="148" key="GridCell.Tab.2.right" timestamp="1585113377749">
+    <state width="1398" height="219" key="GridCell.Tab.2.right" timestamp="1585187314702">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="148" key="GridCell.Tab.2.right/0.23.1440.803@0.23.1440.803" timestamp="1585113377749" />
+    <state width="1398" height="219" key="GridCell.Tab.2.right/0.23.1440.803@0.23.1440.803" timestamp="1585187314702" />
     <state width="1398" height="162" key="GridCell.Tab.2.right/0.23.1440.804@0.23.1440.804" timestamp="1584091537260" />
     <state width="1398" height="281" key="GridCell.Tab.2.right/0.23.1440.806@0.23.1440.806" timestamp="1583054989906" />
     <state x="308" y="166" key="IDE.errors.dialog" timestamp="1585056404247">
@@ -653,10 +550,10 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="370" y="127" key="NewModule_or_Project.wizard/0.23.1440.806@0.23.1440.806" timestamp="1583052800655" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1585024072889">
+    <state x="208" y="23" key="SettingsEditor" timestamp="1585125713637">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1585024072889" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1585125713637" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1584074012986" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1583052821548" />
     <state x="450" y="163" width="540" height="525" key="StructurePopup" timestamp="1584092084874">
@@ -665,10 +562,10 @@
     <state x="450" y="163" width="540" height="524" key="StructurePopup/0.23.1440.803@0.23.1440.803" timestamp="1583711880687" />
     <state x="450" y="163" width="540" height="525" key="StructurePopup/0.23.1440.804@0.23.1440.804" timestamp="1584092084874" />
     <state x="450" y="164" width="540" height="526" key="StructurePopup/0.23.1440.806@0.23.1440.806" timestamp="1583053301208" />
-    <state width="500" height="596" key="SwitcherDM" timestamp="1585112514952">
+    <state width="500" height="596" key="SwitcherDM" timestamp="1585148046778">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="500" height="596" key="SwitcherDM/0.23.1440.803@0.23.1440.803" timestamp="1585112514952" />
+    <state width="500" height="596" key="SwitcherDM/0.23.1440.803@0.23.1440.803" timestamp="1585148046778" />
     <state width="500" height="616" key="SwitcherDM/0.23.1440.804@0.23.1440.804" timestamp="1584090684929" />
     <state width="500" height="498" key="SwitcherDM/0.23.1440.806@0.23.1440.806" timestamp="1583051429110" />
     <state width="720" height="401" key="XDebugger.FullValuePopup" timestamp="1584082962839">
@@ -701,20 +598,20 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="400" y="181" width="639" height="486" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1582703157466" />
-    <state x="149" y="122" key="new project wizard" timestamp="1584956112196">
+    <state x="149" y="122" key="new project wizard" timestamp="1585119940609">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="149" y="122" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1584956112196" />
+    <state x="149" y="122" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1585119940609" />
     <state x="149" y="122" key="new project wizard/0.23.1440.804@0.23.1440.804" timestamp="1584015584920" />
     <state x="149" y="122" key="new project wizard/0.23.1440.806@0.23.1440.806" timestamp="1582705381240" />
     <state x="385" y="192" key="run.anything.popup" timestamp="1584085852475">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="385" y="192" key="run.anything.popup/0.23.1440.804@0.23.1440.804" timestamp="1584085852475" />
-    <state x="360" y="119" width="670" height="674" key="search.everywhere.popup" timestamp="1585111052174">
+    <state x="360" y="119" width="670" height="674" key="search.everywhere.popup" timestamp="1585142888750">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="360" y="119" width="670" height="674" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1585111052174" />
+    <state x="360" y="119" width="670" height="674" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1585142888750" />
     <state x="385" y="153" width="670" height="675" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1584089638719" />
     <state x="385" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1583052977097" />
   </component>
@@ -723,8 +620,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gmall-cart-web/src/main/java/com/atguigu/gmall/cart/controller/CartController.java</url>
-          <line>50</line>
+          <line>64</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gmall-web-util/src/main/java/com/atguigu/gmall/interceptor/AuthInterceptor.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -22,5 +22,6 @@
         <module>gmall-search-web</module>
         <module>gmall-cart-web</module>
         <module>gmall-cart-service</module>
+        <module>gmall-passport-web</module>
     </modules>
 </project>

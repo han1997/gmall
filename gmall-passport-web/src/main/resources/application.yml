@@ -1,0 +1,31 @@
+
+server:
+  port: 8085
+
+# mysql
+spring:
+# dubbo
+  dubbo:
+    application: passport-web
+    base-package: com.atguigu.gmall
+    protocol:
+      name: dubbo
+    registry:
+      address: 192.168.123.27:2181
+      protocol: zookeeper
+  #redis
+  redis:
+    host: 192.168.123.27
+    port: 6379
+    database: 0
+    pool:
+      max-wait: 1000
+
+logging:
+  level:
+    root: info
+  #mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true

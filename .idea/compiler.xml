@@ -19,6 +19,7 @@
         <module name="gmall-manage-service" />
         <module name="gmall-cart-web" />
         <module name="gmall" />
+        <module name="gmall-passport-web" />
         <module name="gmall-search-service" />
         <module name="gmall-user-web" />
         <module name="gmall-search-web" />
@@ -34,6 +35,7 @@
       <module name="gmall-cart-service" options="" />
       <module name="gmall-cart-web" options="" />
       <module name="gmall-manage-service" options="" />
+      <module name="gmall-passport-web" options="" />
       <module name="gmall-search-service" options="" />
       <module name="gmall-search-web" options="" />
     </option>

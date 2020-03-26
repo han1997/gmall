@@ -2,6 +2,7 @@ package com.atguigu.gmall.cart.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSON;
+import com.atguigu.gmall.annotations.LoginRequired;
 import com.atguigu.gmall.bean.OmsCartItem;
 import com.atguigu.gmall.bean.PmsSkuInfo;
 import com.atguigu.gmall.service.CartService;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
@@ -30,8 +32,20 @@ public class CartController {
     @Reference
     CartService cartService;
 
+    @RequestMapping("toTrade")
+    @LoginRequired(loginSuccess = true)
+    public String toTrade(HttpServletRequest request,
+                          HttpServletResponse response,
+                          HttpSession session,
+                          ModelMap modelMap){
+        String memberId = (String) request.getAttribute("memberId");
+        String nickName = (String) request.getAttribute("nickName");
+        return "toTrade";
+    }
+
     @RequestMapping("checkCart")
-    public String checkCart(String isChecked, String skuId,ModelMap modelMap) {
+    @LoginRequired(loginSuccess = false)
+    public String checkCart(String isChecked, String skuId, ModelMap modelMap) {
         String memberId = "1";
 //        调用服务，修改状态
         OmsCartItem omsCartItem = new OmsCartItem();
@@ -41,8 +55,8 @@ public class CartController {
         cartService.checkCart(omsCartItem);
 //        获取最新缓存数据渲染给cartListInner
         List<OmsCartItem> omsCartItems = cartService.cartList(memberId);
-        modelMap.put("cartList",omsCartItems);
-        if (omsCartItems.size() > 0){
+        modelMap.put("cartList", omsCartItems);
+        if (omsCartItems.size() > 0) {
 //        获取购物车总价
             BigDecimal totalAmount = getTotalAmount(omsCartItems);
             modelMap.put("totalAmount", totalAmount);
@@ -52,6 +66,7 @@ public class CartController {
     }
 
     @RequestMapping("cartList")
+    @LoginRequired
     public String cartList(HttpServletRequest request, ModelMap modelMap) {
         String memberId = "1";
         List<OmsCartItem> omsCartItems = new ArrayList<>();
@@ -65,7 +80,7 @@ public class CartController {
         }
 
         modelMap.put("cartList", omsCartItems);
-        if (omsCartItems.size() > 0){
+        if (omsCartItems.size() > 0) {
 //        获取购物车总价
             BigDecimal totalAmount = getTotalAmount(omsCartItems);
             modelMap.put("totalAmount", totalAmount);
@@ -159,7 +174,7 @@ public class CartController {
         BigDecimal totalAmount = new BigDecimal("0");
         for (OmsCartItem omsCartItem : omsCartItems) {
 //            当商品被选中
-            if ("1".equals(omsCartItem.getIsChecked())){
+            if ("1".equals(omsCartItem.getIsChecked())) {
                 BigDecimal totalPrice = omsCartItem.getTotalPrice();
                 totalAmount = totalAmount.add(totalPrice);
             }
