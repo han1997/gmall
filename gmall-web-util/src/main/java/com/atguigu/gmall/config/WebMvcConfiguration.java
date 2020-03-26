@@ -1,6 +1,6 @@
 package com.atguigu.gmall.config;
 
-import com.atguigu.gmall.interceptor.AuthInterceptor;
+import com.atguigu.gmall.interceptors.AuthInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -17,7 +17,7 @@ public class WebMvcConfiguration extends WebMvcConfigurerAdapter {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry){
-        registry.addInterceptor(authInterceptor).addPathPatterns("/**");
+        registry.addInterceptor(authInterceptor).addPathPatterns("/**").excludePathPatterns("/error");
         super.addInterceptors(registry);
     }
 }

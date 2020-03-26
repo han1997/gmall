@@ -10,4 +10,8 @@ import java.util.List;
  */
 public interface UserService {
     List<UmsMember> list();
+
+    UmsMember login(UmsMember umsMember);
+
+    void addUserToken(String token, Long memberId);
 }

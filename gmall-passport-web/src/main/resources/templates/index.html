@@ -79,7 +79,7 @@
 		function submitLogin() {
 			let username = $("input[name = 'username']").val();
 			let password = $("input[name = 'password']").val();
-			$.post("login",{userName:username,password:password},function (token) {
+			$.post("login",{username:username,password:password},function (token) {
 			//	验证token是否为空或者异常
 			// 	alert($("#ReturnUrl").attr("value")+"?token=" + token);
 				window.location.href = $("#ReturnUrl").attr("value")+"?token=" + token;

@@ -1,4 +1,3 @@
-
 server:
   port: 8070
 
@@ -9,7 +8,7 @@ spring:
     url: jdbc:mysql://localhost:3306/gmall_study
     username: root
     password: 970821
-# dubbo
+  # dubbo
   dubbo:
     application: user-service
     base-package: com.atguigu.gmall
@@ -18,6 +17,13 @@ spring:
     registry:
       address: 192.168.123.27:2181
       protocol: zookeeper
+    #redis
+  redis:
+    host: 192.168.123.27
+    port: 6379
+    database: 0
+    pool:
+      max-wait: 1000
 logging:
   level:
     root: info
