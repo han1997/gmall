@@ -68,10 +68,22 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void addUserToken(String token, Long memberId) {
+    public void addUserToken(String token, String memberId) {
         Jedis jedis = redisUtil.getJedis();
 
         jedis.setex("user:" + memberId + ":token",60 * 60 * 2,token);
         jedis.close();
+    }
+
+
+    @Override
+    public void addOauthUser(UmsMember umsMember) {
+        umsMemberMapper.insertSelective(umsMember);
+    }
+
+    @Override
+    public UmsMember checkOauthUser(UmsMember checkUser) {
+        UmsMember umsMember = umsMemberMapper.selectOne(checkUser);
+        return umsMember;
     }
 }
