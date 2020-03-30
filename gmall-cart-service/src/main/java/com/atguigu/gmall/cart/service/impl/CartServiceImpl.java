@@ -2,7 +2,7 @@ package com.atguigu.gmall.cart.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
-import com.atguigu.gmall.bean.OmsCartItem;
+import com.atguigu.gmall.beans.OmsCartItem;
 import com.atguigu.gmall.cart.mapper.OmsCartItemMapper;
 import com.atguigu.gmall.manage.util.RedisUtil;
 import com.atguigu.gmall.service.CartService;

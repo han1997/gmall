@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<!--顶部logo-->
-		<input type="hidden" id="ReturnUrl" th:value="${ReturnUrl}" />
+		<input type="hidden" id="returnUrl" th:value="${returnUrl}" />
 
 		<header>
 			<a href="http://www.baidu.com"><img src="/img/logo1.jpg"/></a><p>欢迎登录</p>
@@ -80,10 +80,14 @@
 		function submitLogin() {
 			let username = $("input[name = 'username']").val();
 			let password = $("input[name = 'password']").val();
-			$.post("login",{username:username,password:password},function (token) {
+			$.post("/login",{username:username,password:password},function (token) {
 			//	验证token是否为空或者异常
 			// 	alert($("#ReturnUrl").attr("value")+"?token=" + token);
-				window.location.href = $("#ReturnUrl").attr("value")+"?token=" + token;
+				if ("fail" == token){
+					alert("用户名与密码不匹配！")
+				}else {
+					window.location.href = $("#returnUrl").val() +"?token=" + token;
+				}
 			})
 
 		}

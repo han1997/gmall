@@ -1,9 +1,9 @@
 package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.atguigu.gmall.bean.PmsProductImage;
-import com.atguigu.gmall.bean.PmsProductInfo;
-import com.atguigu.gmall.bean.PmsProductSaleAttr;
+import com.atguigu.gmall.beans.PmsProductImage;
+import com.atguigu.gmall.beans.PmsProductInfo;
+import com.atguigu.gmall.beans.PmsProductSaleAttr;
 import com.atguigu.gmall.service.SpuService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

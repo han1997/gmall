@@ -3,8 +3,8 @@ package com.atguigu.gmall.cart.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSON;
 import com.atguigu.gmall.annotations.LoginRequired;
-import com.atguigu.gmall.bean.OmsCartItem;
-import com.atguigu.gmall.bean.PmsSkuInfo;
+import com.atguigu.gmall.beans.OmsCartItem;
+import com.atguigu.gmall.beans.PmsSkuInfo;
 import com.atguigu.gmall.service.CartService;
 import com.atguigu.gmall.service.SkuService;
 import com.atguigu.gmall.util.CookieUtil;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
@@ -32,16 +31,6 @@ public class CartController {
     @Reference
     CartService cartService;
 
-    @RequestMapping("toTrade")
-    @LoginRequired()
-    public String toTrade(HttpServletRequest request,
-                          HttpServletResponse response,
-                          HttpSession session,
-                          ModelMap modelMap){
-        String memberId = (String) request.getAttribute("memberId");
-        String nickName = (String) request.getAttribute("nickName");
-        return "toTrade";
-    }
 
     @RequestMapping("checkCart")
     @LoginRequired(loginSuccess = false)

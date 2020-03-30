@@ -28,6 +28,9 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
             CookieUtil.setCookie(request,response,"token",newToken,WebConst.cookieExpire,false);
         }
 */
+        StringBuffer requestURL1 = request.getRequestURL();
+        System.out.println(requestURL1);
+
         HandlerMethod handlerMethod = (HandlerMethod) handler;
         LoginRequired methodAnnotation = handlerMethod.getMethodAnnotation(LoginRequired.class);
         if (methodAnnotation == null) {
@@ -59,7 +62,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
                 ip = "127.0.0.1";
             }
 //        调用认证中心验证token信息
-            String successJson = HttpClientUtil.doGet("http://localhost:8085/verity?token=" + token + "&currentIp" + ip);
+            String successJson = HttpClientUtil.doGet("http://localhost:8085/verity?token=" + token + "&ip=" + ip);
             successMap = JSON.parseObject(successJson, Map.class);
             success = successMap.get("status");
         }

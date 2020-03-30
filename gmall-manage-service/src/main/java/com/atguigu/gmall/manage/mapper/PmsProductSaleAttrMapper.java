@@ -1,6 +1,6 @@
 package com.atguigu.gmall.manage.mapper;
 
-import com.atguigu.gmall.bean.PmsProductSaleAttr;
+import com.atguigu.gmall.beans.PmsProductSaleAttr;
 import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;
 

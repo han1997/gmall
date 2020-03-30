@@ -2,9 +2,9 @@ package com.atguigu.gmall.item.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSON;
-import com.atguigu.gmall.bean.PmsProductSaleAttr;
-import com.atguigu.gmall.bean.PmsSkuInfo;
-import com.atguigu.gmall.bean.PmsSkuSaleAttrValue;
+import com.atguigu.gmall.beans.PmsProductSaleAttr;
+import com.atguigu.gmall.beans.PmsSkuInfo;
+import com.atguigu.gmall.beans.PmsSkuSaleAttrValue;
 import com.atguigu.gmall.service.SkuService;
 import com.atguigu.gmall.service.SpuService;
 import org.springframework.stereotype.Controller;

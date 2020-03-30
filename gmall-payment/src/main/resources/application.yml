@@ -1,0 +1,50 @@
+server:
+  port: 8087
+  # dubbo
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gmall_study
+    username: root
+    password: 970821
+  thymeleaf:
+    #    关闭thymeleaf缓存，热部署
+    cache: false
+    #松校验
+    mode: LEGACYHTML5
+  dubbo:
+    #    应用名称
+    application: payment
+    #    扫描目录
+    base-package: com.atguigu.gmall
+    #    协议名称
+    protocol:
+      name: dubbo
+    #      zookeeper设置
+    registry:
+      #      zookeeper地址
+      address: 192.168.123.27:2181
+      #      zookeeper协议名称
+      protocol: zookeeper
+    consumer:
+      #      服务超时时间
+      timeout: 600000
+      #      不检查服务是否存在
+      check: false
+
+    #redis
+  redis:
+    host: 192.168.123.27
+    port: 6379
+    database: 0
+    pool:
+      max-wait: 1000
+logging:
+  level:
+    root: info
+
+  #mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true

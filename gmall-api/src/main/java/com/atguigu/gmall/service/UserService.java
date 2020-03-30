@@ -1,6 +1,7 @@
 package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.bean.UmsMember;
+import com.atguigu.gmall.beans.UmsMember;
+import com.atguigu.gmall.beans.UmsMemberReceiveAddress;
 
 import java.util.List;
 
@@ -15,7 +16,11 @@ public interface UserService {
 
     void addUserToken(String token, String memberId);
 
-    void addOauthUser(UmsMember umsMember);
+    UmsMember addOauthUser(UmsMember umsMember);
 
     UmsMember checkOauthUser(UmsMember checkUser);
+
+    List<UmsMemberReceiveAddress> getAddressListByMemberId(String memberId);
+
+    UmsMemberReceiveAddress getReceiveAddressById(String receiveAddressId);
 }

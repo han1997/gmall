@@ -7,9 +7,9 @@
         INNER JOIN pms_sku_sale_attr_value pssav
         ON psi.id = pssav.sku_id AND psi.product_id = #{productId}
     </select>
-    <resultMap id="SkuSaleAttrValueListBySpuMap" type="com.atguigu.gmall.bean.PmsSkuInfo" autoMapping="true">
+    <resultMap id="SkuSaleAttrValueListBySpuMap" type="com.atguigu.gmall.beans.PmsSkuInfo" autoMapping="true">
         <result column="psi_id" property="id" ></result>
-        <collection property="pmsSkuSaleAttrValueList" ofType="com.atguigu.gmall.bean.PmsSkuSaleAttrValue"
+        <collection property="pmsSkuSaleAttrValueList" ofType="com.atguigu.gmall.beans.PmsSkuSaleAttrValue"
                     autoMapping="true">
             <result column="pssav_id" property="id" ></result>
         </collection>

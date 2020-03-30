@@ -10,3 +10,6 @@
 - <del>item-service: 8072</del>
 - search-web: 8083
 - search-service: 8073
+- passport-web: 8085
+- order-web: 8086
+- order-service: 8076

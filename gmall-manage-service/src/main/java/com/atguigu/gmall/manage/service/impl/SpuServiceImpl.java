@@ -1,10 +1,10 @@
 package com.atguigu.gmall.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.atguigu.gmall.bean.PmsProductImage;
-import com.atguigu.gmall.bean.PmsProductInfo;
-import com.atguigu.gmall.bean.PmsProductSaleAttr;
-import com.atguigu.gmall.bean.PmsProductSaleAttrValue;
+import com.atguigu.gmall.beans.PmsProductImage;
+import com.atguigu.gmall.beans.PmsProductInfo;
+import com.atguigu.gmall.beans.PmsProductSaleAttr;
+import com.atguigu.gmall.beans.PmsProductSaleAttrValue;
 import com.atguigu.gmall.manage.mapper.*;
 import com.atguigu.gmall.service.SpuService;
 import org.springframework.beans.factory.annotation.Autowired;

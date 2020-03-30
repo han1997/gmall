@@ -23,5 +23,8 @@
         <module>gmall-cart-web</module>
         <module>gmall-cart-service</module>
         <module>gmall-passport-web</module>
+        <module>gmall-order-web</module>
+        <module>gmall-order-service</module>
+        <module>gmall-payment</module>
     </modules>
 </project>

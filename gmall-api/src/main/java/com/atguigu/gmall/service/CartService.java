@@ -1,6 +1,6 @@
 package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.bean.OmsCartItem;
+import com.atguigu.gmall.beans.OmsCartItem;
 
 import java.util.List;
 

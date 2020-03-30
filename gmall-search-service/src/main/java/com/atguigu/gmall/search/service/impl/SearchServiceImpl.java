@@ -1,8 +1,8 @@
 package com.atguigu.gmall.search.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.atguigu.gmall.bean.PmsSearchParam;
-import com.atguigu.gmall.bean.PmsSearchSkuInfo;
+import com.atguigu.gmall.beans.PmsSearchParam;
+import com.atguigu.gmall.beans.PmsSearchSkuInfo;
 import com.atguigu.gmall.service.SearchService;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Search;

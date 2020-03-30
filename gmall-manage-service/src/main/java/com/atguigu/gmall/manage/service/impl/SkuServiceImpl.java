@@ -2,7 +2,7 @@ package com.atguigu.gmall.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
-import com.atguigu.gmall.bean.*;
+import com.atguigu.gmall.beans.*;
 import com.atguigu.gmall.manage.mapper.*;
 import com.atguigu.gmall.service.SkuService;
 import com.atguigu.gmall.manage.util.RedisUtil;
@@ -10,6 +10,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
 
+import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
 
@@ -116,25 +118,26 @@ public class SkuServiceImpl  implements SkuService {
             //作为标识码防止误删其他客户端的锁
             String token = UUID.randomUUID().toString();
 //            设置分布式锁
-            String OK = jedis.set("sku:" + skuId + ":lock", token, "NX", "PX", 10 * 1000);
+            String lockKey = "sku:" + skuId + ":lock";
+            String OK = jedis.set(lockKey, token, "NX", "PX", 10 * 1000);
             if (StringUtils.isNotBlank(OK) && "OK".equals(OK)){
                 pmsSkuInfo = getSkuByIdFromDB(skuId);
 //        sql返回结果给客户端并将结果写入缓存
                 if (pmsSkuInfo != null){
-                    jedis.set("sku:" + skuId + ":info",JSON.toJSONString(pmsSkuInfo));
+                    jedis.set(skuKey,JSON.toJSONString(pmsSkuInfo));
                 }else {
 //                sql也查不到，防止缓存穿透，设置null或者""
-                    jedis.setex("sku:" + skuId + ":info",60*3,JSON.toJSONString(""));
+                    jedis.setex(skuKey,60*3,JSON.toJSONString(""));
                 }
 //                验证是否是自己的锁
-                String lockToken = jedis.get("sku:" + skuId + ":lock");
+                String lockToken = jedis.get(lockKey);
                 if (StringUtils.isNotBlank(lockToken) && lockToken.equals(token)){
-//                去除分布式锁
-                    jedis.del("sku:" + skuId + ":lock");
-                }
 //              防止在确认自己锁的瞬间，自己的锁失效，使用lua脚本
-//                String script = "";
-//                jedis.eval(script,)
+                    String script = "if redis.call('get',KEYS[1]) == ARGV[1] then return redis.call('del',KEYS[1]) else return 0 end";
+                    Long eval = (Long) jedis.eval(script, Collections.singletonList(skuKey), Collections.singletonList(lockKey));/*
+//                去除分布式锁
+                    jedis.del(lockKey);*/
+                }
             }else {
                 try {
                     Thread.sleep(3000);
@@ -172,5 +175,16 @@ public class SkuServiceImpl  implements SkuService {
             pmsSkuInfo.setPmsSkuAttrValueList(pmsSkuAttrValues);
         }
         return pmsSkuInfoList;
+    }
+
+    @Override
+    public boolean checkPrice(String productSkuId, BigDecimal price) {
+        PmsSkuInfo t = new PmsSkuInfo();
+        t.setId(productSkuId);
+        PmsSkuInfo pmsSkuInfo = pmsSkuInfoMapper.selectOne(t);
+        if (pmsSkuInfo.getPrice().compareTo(price) == 0){
+            return true;
+        }
+        return false;
     }
 }

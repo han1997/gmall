@@ -1,9 +1,8 @@
 package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.bean.PmsBaseAttrInfo;
-import com.atguigu.gmall.bean.PmsBaseCatalog1;
-import com.atguigu.gmall.bean.PmsBaseCatalog2;
-import com.atguigu.gmall.bean.PmsBaseCatalog3;
+import com.atguigu.gmall.beans.PmsBaseCatalog1;
+import com.atguigu.gmall.beans.PmsBaseCatalog2;
+import com.atguigu.gmall.beans.PmsBaseCatalog3;
 
 import java.util.List;
 

@@ -6,9 +6,9 @@
         FROM pms_base_attr_info pbai,pms_base_attr_value pbav
         WHERE pbai.id = pbav.attr_id AND pbav.id IN (${valueId})
     </select>
-    <resultMap id="AttrValueListByValueId" type="com.atguigu.gmall.bean.PmsBaseAttrInfo" autoMapping="true">
+    <resultMap id="AttrValueListByValueId" type="com.atguigu.gmall.beans.PmsBaseAttrInfo" autoMapping="true">
         <result column="pbai_id" property="id"></result>
-        <collection property="attrValueList" ofType="com.atguigu.gmall.bean.PmsBaseAttrValue"
+        <collection property="attrValueList" ofType="com.atguigu.gmall.beans.PmsBaseAttrValue"
                     autoMapping="true">
             <result column="pbav_id" property="id"></result>
         </collection>

@@ -1,8 +1,8 @@
 package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.bean.PmsProductImage;
-import com.atguigu.gmall.bean.PmsProductInfo;
-import com.atguigu.gmall.bean.PmsProductSaleAttr;
+import com.atguigu.gmall.beans.PmsProductImage;
+import com.atguigu.gmall.beans.PmsProductInfo;
+import com.atguigu.gmall.beans.PmsProductSaleAttr;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
 package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.bean.PmsBaseAttrInfo;
-import com.atguigu.gmall.bean.PmsBaseAttrValue;
-import com.atguigu.gmall.bean.PmsBaseSaleAttr;
+import com.atguigu.gmall.beans.PmsBaseAttrInfo;
+import com.atguigu.gmall.beans.PmsBaseAttrValue;
+import com.atguigu.gmall.beans.PmsBaseSaleAttr;
 
 import java.util.List;
 import java.util.Set;
