@@ -32,7 +32,7 @@ import java.util.List;
 @Controller
 public class OrderController {
     @Reference
-    private SkuService skuService;
+    SkuService skuService;
     @Reference
     CartService cartService;
     @Reference
@@ -83,7 +83,7 @@ public class OrderController {
             Date time = c.getTime();
             omsOrder.setReceiveTime(time);
             omsOrder.setSourceType(0);
-            omsOrder.setStatus(0);
+            omsOrder.setStatus("0");
             omsOrder.setOrderType(0);
             omsOrder.setTotalAmount(totalAmount);
 
@@ -128,8 +128,9 @@ public class OrderController {
             modelAndView = new ModelAndView("redirect:http://localhost:8087/index");
             modelAndView.addObject("outTradeNo", outTradeNo);
             modelAndView.addObject("totalAmount", totalAmount);
+        }else {
+            modelAndView = new ModelAndView("tradeFail");
         }
-        modelAndView = new ModelAndView("tradeFail");
         return modelAndView;
     }
 

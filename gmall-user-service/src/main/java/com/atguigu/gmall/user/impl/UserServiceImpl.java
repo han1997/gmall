@@ -47,6 +47,7 @@ public class UserServiceImpl implements UserService {
                 if (StringUtils.isNotBlank(userInfoStr)) {
                     //            登录成功
                     UmsMember umsMemberFromCache = JSON.parseObject(userInfoStr, UmsMember.class);
+                    System.out.println(umsMemberFromCache.getNickname());
                     return umsMemberFromCache;
                 }
 //                redis加载失败，直接查询数据库
@@ -60,6 +61,7 @@ public class UserServiceImpl implements UserService {
                                     + ":" + umsMember.getPassword() + ":userInfo",
                             60 * 60 * 24, umsMemberToCache);
                 }
+                System.out.println(umsMemberFromDb.getNickname());
                 return umsMemberFromDb;
             }
         } catch (Exception e) {

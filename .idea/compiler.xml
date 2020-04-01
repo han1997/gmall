@@ -13,6 +13,7 @@
         <module name="gmall-common-util" />
         <module name="gmall-item-web" />
         <module name="gmall-manage-web" />
+        <module name="gware-manage" />
         <module name="gmall-order-service" />
         <module name="fastdfs-client-java" />
         <module name="gmall-cart-service" />

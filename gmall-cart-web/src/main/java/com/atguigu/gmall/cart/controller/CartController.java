@@ -59,6 +59,7 @@ public class CartController {
     @LoginRequired(loginSuccess = false)
     public String cartList(HttpServletRequest request, ModelMap modelMap) {
         String memberId = (String) request.getAttribute("memberId");
+        System.out.println("cartList-->memberId:"+memberId);
         List<OmsCartItem> omsCartItems;
         if (StringUtils.isNotBlank(memberId)) {
 //            用户已登录
@@ -84,6 +85,7 @@ public class CartController {
     }
 
     @RequestMapping("/addToCart")
+    @LoginRequired(loginSuccess = false)
     public String addToCart(String skuId, Long quantity,
                             HttpServletRequest request, HttpServletResponse response) {
 //        构建购物车
@@ -108,6 +110,8 @@ public class CartController {
 //        判断用户是否登录
         String memberId = (String) request.getAttribute("memberId");
         String nickName = (String) request.getAttribute("nickName");
+        System.out.println(memberId);
+        System.out.println(nickName);
         if (StringUtils.isBlank(memberId)) {
 //              用户未登录
 //                取出cookie的中的购物车

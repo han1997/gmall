@@ -27,13 +27,13 @@ public class PassportController {
     UserService userService;
 
     @RequestMapping("toVLogin")
-    public String a(){
+    public String a() {
         String url = "api.weibo.com/oauth2/authorize?client_id=1565861648&response_type=code&redirect_uri=http://127.0.0.1:8085/vlogin";
         return "redirect:https://" + url;
     }
 
     @RequestMapping("/vlogin")
-    public String vlogin(String code,HttpServletRequest request) {
+    public String vlogin(String code, HttpServletRequest request) {
         String token = "";
         String accessToken = "";
         String uid = "";
@@ -69,7 +69,7 @@ public class PassportController {
             umsMember.setCity((String) userInfoMap.get("location"));
             String gender = (String) userInfoMap.get("gender");
             String g = "0";
-            if ("m".equals(gender)){
+            if ("m".equals(gender)) {
                 g = "1";
             }
             umsMember.setGender(g);
@@ -77,9 +77,9 @@ public class PassportController {
             UmsMember checkUser = new UmsMember();
             checkUser.setSourceUid(umsMember.getSourceUid());
             UmsMember checkMemberFromDb = userService.checkOauthUser(checkUser);
-            if (checkMemberFromDb == null){
+            if (checkMemberFromDb == null) {
                 umsMember = userService.addOauthUser(umsMember);
-            }else {
+            } else {
                 umsMember = checkMemberFromDb;
             }
             String memberId = umsMember.getId();
@@ -96,7 +96,10 @@ public class PassportController {
 
     @RequestMapping("/verity")
     @ResponseBody
-    public String verity(String token, String ip) {
+    public String verity(String token, String ip, HttpServletRequest request) {
+
+        StringBuffer requestURL = request.getRequestURL();
+        System.out.println("verity-->url:" + requestURL + "ip:" + ip + "token:" + token);
 
         Map<String, Object> decode = JwtUtil.decode(token, "2019gmall0115", ip);
         Map<String, String> map = new HashMap<>();
@@ -114,18 +117,22 @@ public class PassportController {
     @RequestMapping("/login")
     @ResponseBody
     public String login(UmsMember umsMember, HttpServletRequest request) {
-        UmsMember umsMemberLogin = userService.login(umsMember);
+        UmsMember umsMemberLogin = null;
+        if (umsMember != null) {
+            umsMemberLogin = userService.login(umsMember);
+        }
         String token = "";
         if (umsMemberLogin != null) {
 //            登录成功
             String memberId = umsMemberLogin.getId();
             String nickname = umsMemberLogin.getNickname();
             token = getJwtToken(request, memberId, nickname);
+            System.out.println("login-->token:" + token);
 //            存入redis
             userService.addUserToken(token, memberId);
 
 
-        }else {
+        } else {
 //            登录失败
             token = "fail";
         }
@@ -156,7 +163,7 @@ public class PassportController {
 
     @RequestMapping("/index")
     @LoginRequired(loginSuccess = false)
-    public String index(String returnUrl, ModelMap modelMap,HttpServletRequest request) {
+    public String index(String returnUrl, ModelMap modelMap, HttpServletRequest request) {
         StringBuffer requestURI = request.getRequestURL();
         modelMap.put("returnUrl"
                 , returnUrl);

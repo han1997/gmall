@@ -24,6 +24,11 @@ spring:
     database: 0
     pool:
       max-wait: 1000
+  activemq:
+    broker-url: tcp://192.168.123.27:61616
+\activemq:
+  listener:
+    enable: true
 logging:
   level:
     root: info

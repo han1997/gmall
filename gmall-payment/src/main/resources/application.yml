@@ -39,6 +39,10 @@ spring:
     database: 0
     pool:
       max-wait: 1000
+
+      # MQ
+  activemq:
+    broker-url: tcp://192.168.123.27:61616
 logging:
   level:
     root: info
@@ -48,3 +52,7 @@ mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
   configuration:
     map-underscore-to-camel-case: true
+
+activemq:
+  listener:
+    enable: true

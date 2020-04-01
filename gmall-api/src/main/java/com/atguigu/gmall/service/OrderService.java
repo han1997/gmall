@@ -8,4 +8,8 @@ public interface OrderService {
     String getTradeCode(String memberId);
 
     void saveOrder(OmsOrder omsOrder);
+
+    OmsOrder getOrderByOutTradeNo(String outTradeNo);
+
+    void updateOrder(OmsOrder omsOrder);
 }

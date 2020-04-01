@@ -1,30 +1,30 @@
-
 server:
   port: 8086
   # dubbo
 spring:
   dubbo:
-#    应用名称
+    #    应用名称
     application: order-web
-#    扫描目录
+    #    扫描目录
     base-package: com.atguigu.gmall
-#    协议名称
+    #    协议名称
     protocol:
       name: dubbo
-#      zookeeper设置
+    #      zookeeper设置
     registry:
-#      zookeeper地址
+      #      zookeeper地址
       address: 192.168.123.27:2181
-#      zookeeper协议名称
+      #      zookeeper协议名称
       protocol: zookeeper
     consumer:
-#      服务超时时间
+      #      服务超时时间
       timeout: 600000
-#      不检查服务是否存在
+      #      不检查服务是否存在
       check: false
   thymeleaf:
     cache: false        #热部署
     mode: LEGACYHTML5   #松校验
+
 logging:
   level:
     root: info
